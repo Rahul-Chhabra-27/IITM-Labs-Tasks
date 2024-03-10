@@ -10,9 +10,9 @@ type Person struct {
 
 // create the function modifyTheAgeOfAPerson here...
 func modifyTheAgeOfAPerson(/** Takes Person struct refernce **/) {
-	// complete the code.......
+	// complete the function.......
 }
 func main() {
 	person := Person{firstName: "John", lastName: "Doe", age: 20}
-	
+	// your code goes here.
 }
