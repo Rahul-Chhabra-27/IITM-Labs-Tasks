@@ -1,8 +1,8 @@
-package main;
+package main
 
 type Thread struct {
-	count int;
-	sum int;
+	count int
+	sum   int
 }
 
 func main() {
