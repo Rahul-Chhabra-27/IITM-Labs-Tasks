@@ -9,6 +9,14 @@ Person {
     age int
 }
 ```
-3. Your Task is to create a function "modifyTheAgeOfAPerson" that takes a person struct as a reference and increments the age of a person by one and returns nothing.
+3. Your Task is to create a function "changeTheIdentity" that takes two Persons person1 and person2 ( both of them should be pass by reference) as a parameter and swaps the data of both the persons
 
-4. Print the person before modifying the age and after modifying the age by calling "modifyTheAgeOfAPerson". 
+    Before swapping :-
+    person1 = {firstName : 'john',lastName : 'doe;, age :'23'}
+    person2 = {firstName : 'james',lastName : 'carry;, age :'30'}
+    
+    After swapping :-
+    person1 = {firstName : 'james',lastName : 'carry;, age :'30'}
+    person2 = {firstName : 'john',lastName : 'doe;, age :'23'}
+
+4. Print the persons before calling changeTheIdentity and after the calling changeTheIdentity. 

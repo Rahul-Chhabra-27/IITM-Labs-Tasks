@@ -1,6 +1,6 @@
 ### Task
 
-You're developing a grading system for a school. Students' grades are represented as numerical values ranging from 0 to 100. Your task is to complete a function gradeAssignment(score int) string that takes a student's score as input and returns their corresponding letter grade according to the following criteria:
+You're developing a grading system for a school. Students' grades are represented as numerical values ranging from 0 to 100. Your task is to complete a function gradeAssignment(score int) that takes a student's score as input and returns their corresponding letter grade according to the following criteria:
 
 ```
 90 <= score <= 100: "A"

@@ -4,7 +4,7 @@ import "net/http"
 
 func main() {
 
-	links := []string{
+	links := [5]string{
 		"http://google.com",
 		"http://facebook.com",
 		"http://stackoverflow.com",
@@ -13,7 +13,7 @@ func main() {
 	}
 
 	// channel for communication b/w subroutines.
-	//channel := make(chan string)
+	channel := make(chan string)
 
 	for _, link := range links {
 		// call makeRequest function and pass the individual

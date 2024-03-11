@@ -1,6 +1,5 @@
 package main
 
-import "fmt"
 
 type Person struct {
 	firstName string
@@ -8,11 +7,12 @@ type Person struct {
 	age       int
 }
 
-// create the function modifyTheAgeOfAPerson here...
-func modifyTheAgeOfAPerson(/** Takes Person struct refernce **/) {
-	// complete the function.......
+// create the function changeTheIdentity here...
+func changeTheIdentity(person1 *Person, person2 *Person) {
+	
 }
 func main() {
-	person := Person{firstName: "John", lastName: "Doe", age: 20}
-	// your code goes here.
+	person1 := Person{firstName: "John", lastName: "Doe", age: 20}
+	person2 := Person{firstName: "James", lastName: "carry", age: 20}
+	
 }

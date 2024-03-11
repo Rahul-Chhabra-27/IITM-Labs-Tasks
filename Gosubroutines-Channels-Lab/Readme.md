@@ -1,5 +1,5 @@
 ### Task
-You are given an array of links and your task is to iterate through the array of links and execute the HTTP GET request.
+You are given an array of links and your task is to iterate through the array of links and execute the HTTP GET request by using each link (Don't worry, HTTP GET Request code is present in the boilerplate code).
 
 The following conditions should satisfied.
 
@@ -12,7 +12,7 @@ The following conditions should satisfied.
 
 Send -> "Website is up and running" if the request is successfully executed.
 
-Otherwise -> "Website is down" if any error occurs.
+Otherwise, Send -> "Website is down" if any error occurs.
 
 4. At the end of the main subroutine print the message sent by child-subroutines.
 ```
